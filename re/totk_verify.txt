@@ -1,0 +1,220 @@
+=== which function contains each name getter ===
+ExecutePlayerCameraChase     0x23B7A20 : NO FUNCTION
+ExecutePlayerCameraAiming    0x23B4118 : NO FUNCTION
+ExecutePlayerCameraBase      0x23B6444 : NO FUNCTION
+ExecutePlayerCameraHorse     0x23BFEC4 : NO FUNCTION
+
+=== candidate 0x23BA728  containing fn 023ba728 ===
+    size=0x1624
+    023ba728  stp        stp d15,d14,[sp, #-0xa0]!
+    023ba72c  stp        stp d13,d12,[sp, #0x10]
+    023ba730  stp        stp d11,d10,[sp, #0x20]
+    023ba734  stp        stp d9,d8,[sp, #0x30]
+    023ba738  stp        stp x29,x30,[sp, #0x40]
+    023ba73c  add        add x29,sp,#0x40
+    023ba740  stp        stp x28,x27,[sp, #0x50]
+    023ba744  stp        stp x26,x25,[sp, #0x60]
+    023ba748  stp        stp x24,x23,[sp, #0x70]
+    023ba74c  stp        stp x22,x21,[sp, #0x80]
+    023ba750  stp        stp x20,x19,[sp, #0x90]
+    023ba754  sub        sub sp,sp,#0x460
+    023ba758  ldr        ldr x26,[x0, #0x20]
+    023ba75c  mov        mov x20,x1
+    023ba760  mov        mov x19,x0
+    023ba764  add        add x23,sp,#0x38c
+    023ba768  bl         bl 0x023b8b9c
+    023ba76c  ldr        ldr s0,[x26, #0x338]
+    023ba770  sub        sub x0,x29,#0x5c
+    023ba774  add        add x1,sp,#0x200
+    023ba778  ldr        ldr s1,[x26, #0x344]
+    023ba77c  sub        sub x24,x29,#0x5c
+    023ba780  stur       stur xzr,[x23, #0xbc]
+    023ba784  ldr        ldr s2,[x26, #0x33c]
+    023ba788  fsub       fsub s0,s0,s1
+    023ba78c  ldr        ldr s3,[x26, #0x348]
+    023ba790  ldr        ldr s4,[x26, #0x340]
+    023ba794  ldr        ldr s5,[x26, #0x34c]
+    023ba798  fsub       fsub s1,s2,s3
+    023ba79c  str        str s0,[sp, #0x200]
+    023ba7a0  fsub       fsub s0,s4,s5
+    023ba7a4  str        str s1,[sp, #0x204]
+    023ba7a8  str        str s0,[sp, #0x208]
+    023ba7ac  bl         bl 0x00285268
+    023ba7b0  ldrb       ldrb w8,[x19, #0x9c]
+    023ba7b4  cbnz       cbnz w8,0x023ba9e8
+    023ba7b8  ldr        ldr s0,[x20, #0x8]
+    023ba7bc  add        add x0,x19,#0x78
+    023ba7c0  add        add x21,x24,#0x4
+    023ba7c4  add        add x22,x24,#0x8
+
+=== candidate 0x23C6F74  containing fn 023c6f74 ===
+    size=0xBA0
+    023c6f74  sub        sub sp,sp,#0x140
+    023c6f78  stp        stp d15,d14,[sp, #0xa0]
+    023c6f7c  str        str x28,[sp, #0xf0]
+    023c6f80  stp        stp d13,d12,[sp, #0xb0]
+    023c6f84  stp        stp d11,d10,[sp, #0xc0]
+    023c6f88  stp        stp d9,d8,[sp, #0xd0]
+    023c6f8c  stp        stp x29,x30,[sp, #0xe0]
+    023c6f90  stp        stp x26,x25,[sp, #0x100]
+    023c6f94  stp        stp x24,x23,[sp, #0x110]
+    023c6f98  stp        stp x22,x21,[sp, #0x120]
+    023c6f9c  stp        stp x20,x19,[sp, #0x130]
+    023c6fa0  add        add x29,sp,#0xe0
+    023c6fa4  ldr        ldr x23,[x0, #0x20]
+    023c6fa8  mov        mov x20,x1
+    023c6fac  mov        mov x19,x0
+    023c6fb0  sub        sub x21,x29,#0x4c
+    023c6fb4  ldr        ldr w24,[x23, #0x15c]
+    023c6fb8  bl         bl 0x023c6b30
+    023c6fbc  ldr        ldr s0,[x23, #0x338]
+    023c6fc0  sub        sub x0,x29,#0x4c
+    023c6fc4  add        add x1,sp,#0x8
+    023c6fc8  ldr        ldr s1,[x23, #0x344]
+    023c6fcc  stur       stur xzr,[x21, #0x4]
+    023c6fd0  fsub       fsub s0,s0,s1
+    023c6fd4  ldr        ldr s2,[x23, #0x33c]
+    023c6fd8  ldr        ldr s3,[x23, #0x348]
+    023c6fdc  ldr        ldr s4,[x23, #0x340]
+    023c6fe0  ldr        ldr s5,[x23, #0x34c]
+    023c6fe4  fsub       fsub s1,s2,s3
+    023c6fe8  stp        stp s0,s1,[sp, #0x8]
+    023c6fec  fsub       fsub s0,s4,s5
+    023c6ff0  str        str s0,[sp, #0x10]
+    023c6ff4  bl         bl 0x00285268
+    023c6ff8  ldr        ldr x8,[x21]
+    023c6ffc  add        add x21,x23,#0x430
+    023c7000  stur       stur x8,[x29, #-0x58]
+    023c7004  ldur       ldur w9,[x29, #-0x44]
+    023c7008  ldr        ldr s8,[x20, #0x8]
+    023c700c  stur       stur w9,[x29, #-0x50]
+    023c7010  ldp        ldp x25,x22,[x19, #0x20]
+
+=== candidate 0x23CE850  containing fn 023ce850 ===
+    size=0xA9C
+    023ce850  sub        sub sp,sp,#0xd0
+    023ce854  stp        stp d15,d14,[sp, #0x40]
+    023ce858  str        str x25,[sp, #0x90]
+    023ce85c  stp        stp d13,d12,[sp, #0x50]
+    023ce860  stp        stp d11,d10,[sp, #0x60]
+    023ce864  stp        stp d9,d8,[sp, #0x70]
+    023ce868  stp        stp x29,x30,[sp, #0x80]
+    023ce86c  stp        stp x24,x23,[sp, #0xa0]
+    023ce870  stp        stp x22,x21,[sp, #0xb0]
+    023ce874  stp        stp x20,x19,[sp, #0xc0]
+    023ce878  add        add x29,sp,#0x80
+    023ce87c  ldr        ldr x22,[x0, #0x20]
+    023ce880  mov        mov x20,x1
+    023ce884  mov        mov x19,x0
+    023ce888  bl         bl 0x023ce2b8
+    023ce88c  ldr        ldr s0,[x22, #0x338]
+    023ce890  add        add x0,sp,#0x34
+    023ce894  add        add x1,sp,#0x28
+    023ce898  ldr        ldr s1,[x22, #0x344]
+    023ce89c  stur       stur xzr,[sp, #0x38]
+    023ce8a0  fsub       fsub s0,s0,s1
+    023ce8a4  ldr        ldr s2,[x22, #0x33c]
+    023ce8a8  ldr        ldr s3,[x22, #0x348]
+    023ce8ac  ldr        ldr s4,[x22, #0x340]
+    023ce8b0  ldr        ldr s5,[x22, #0x34c]
+    023ce8b4  fsub       fsub s1,s2,s3
+    023ce8b8  stp        stp s0,s1,[sp, #0x28]
+    023ce8bc  fsub       fsub s0,s4,s5
+    023ce8c0  str        str s0,[sp, #0x30]
+    023ce8c4  bl         bl 0x00285268
+    023ce8c8  ldr        ldr s1,[x22, #0x420]
+    023ce8cc  ldr        ldr s0,[x22, #0x424]
+    023ce8d0  fmul       fmul s2,s0,s0
+    023ce8d4  fmadd      fmadd s2,s1,s1,s2
+    023ce8d8  ldur       ldur x8,[sp, #0x34]
+    023ce8dc  str        str x8,[sp, #0x28]
+    023ce8e0  ldr        ldr w8,[sp, #0x3c]
+    023ce8e4  str        str w8,[sp, #0x30]
+    023ce8e8  fsqrt      fsqrt s13,s2
+    023ce8ec  bl         bl 0x02ba3a30
+
+=== candidate 0x23C42BC  containing fn 023c42bc ===
+    size=0xA8C
+    023c42bc  sub        sub sp,sp,#0xd0
+    023c42c0  stp        stp d15,d14,[sp, #0x40]
+    023c42c4  str        str x25,[sp, #0x90]
+    023c42c8  stp        stp d13,d12,[sp, #0x50]
+    023c42cc  stp        stp d11,d10,[sp, #0x60]
+    023c42d0  stp        stp d9,d8,[sp, #0x70]
+    023c42d4  stp        stp x29,x30,[sp, #0x80]
+    023c42d8  stp        stp x24,x23,[sp, #0xa0]
+    023c42dc  stp        stp x22,x21,[sp, #0xb0]
+    023c42e0  stp        stp x20,x19,[sp, #0xc0]
+    023c42e4  add        add x29,sp,#0x80
+    023c42e8  ldr        ldr x22,[x0, #0x20]
+    023c42ec  mov        mov x20,x1
+    023c42f0  mov        mov x19,x0
+    023c42f4  bl         bl 0x023c3ca0
+    023c42f8  ldr        ldr s0,[x22, #0x338]
+    023c42fc  add        add x0,sp,#0x34
+    023c4300  add        add x1,sp,#0x28
+    023c4304  ldr        ldr s1,[x22, #0x344]
+    023c4308  stur       stur xzr,[sp, #0x38]
+    023c430c  fsub       fsub s0,s0,s1
+    023c4310  ldr        ldr s2,[x22, #0x33c]
+    023c4314  ldr        ldr s3,[x22, #0x348]
+    023c4318  ldr        ldr s4,[x22, #0x340]
+    023c431c  ldr        ldr s5,[x22, #0x34c]
+    023c4320  fsub       fsub s1,s2,s3
+    023c4324  stp        stp s0,s1,[sp, #0x28]
+    023c4328  fsub       fsub s0,s4,s5
+    023c432c  str        str s0,[sp, #0x30]
+    023c4330  bl         bl 0x00285268
+    023c4334  ldr        ldr s1,[x22, #0x420]
+    023c4338  ldr        ldr s0,[x22, #0x424]
+    023c433c  fmul       fmul s2,s0,s0
+    023c4340  fmadd      fmadd s2,s1,s1,s2
+    023c4344  ldur       ldur x8,[sp, #0x34]
+    023c4348  str        str x8,[sp, #0x28]
+    023c434c  ldr        ldr w8,[sp, #0x3c]
+    023c4350  str        str w8,[sp, #0x30]
+    023c4354  fsqrt      fsqrt s13,s2
+    023c4358  bl         bl 0x02ba3a30
+
+=== candidate 0x23B4AE0  containing fn 023b4ae0 ===
+    size=0x92C
+    023b4ae0  sub        sub sp,sp,#0xe0
+    023b4ae4  stp        stp d15,d14,[sp, #0x60]
+    023b4ae8  stp        stp d13,d12,[sp, #0x70]
+    023b4aec  stp        stp d11,d10,[sp, #0x80]
+    023b4af0  stp        stp d9,d8,[sp, #0x90]
+    023b4af4  stp        stp x29,x30,[sp, #0xa0]
+    023b4af8  stp        stp x24,x23,[sp, #0xb0]
+    023b4afc  stp        stp x22,x21,[sp, #0xc0]
+    023b4b00  stp        stp x20,x19,[sp, #0xd0]
+    023b4b04  add        add x29,sp,#0xa0
+    023b4b08  ldr        ldr x23,[x0, #0x20]
+    023b4b0c  mov        mov x20,x1
+    023b4b10  mov        mov x19,x0
+    023b4b14  bl         bl 0x023b45e4
+    023b4b18  add        add x8,x23,#0x40c
+    023b4b1c  ldr        ldr w9,[x23, #0x414]
+    023b4b20  add        add x21,x23,#0x430
+    023b4b24  ldr        ldr x8,[x8]
+    023b4b28  str        str w9,[sp, #0x58]
+    023b4b2c  ldr        ldr s8,[x20, #0x8]
+    023b4b30  ldr        ldr x22,[x19, #0x28]
+    023b4b34  str        str x8,[sp, #0x50]
+    023b4b38  bl         bl 0x00ba9850
+    023b4b3c  ldr        ldr x8,[x22]
+    023b4b40  mov        mov x1,x0
+    023b4b44  mov        mov x0,x22
+    023b4b48  ldr        ldr x8,[x8]
+    023b4b4c  blr        blr x8
+    023b4b50  bl         bl 0x01899870
+    023b4b54  ldr        ldr w8,[x0]
+    023b4b58  str        str s8,[sp, #0x14]
+    023b4b5c  cbnz       cbnz w8,0x023b4bd4
+    023b4b60  tbnz       tbnz w8,#0x0,0x023b4c18
+    023b4b64  ldr        ldr s0,[x23, #0x420]
+    023b4b68  fcmp       fcmp s0,#0.0
+    023b4b6c  b.ne       b.ne 0x023b4c18
+    023b4b70  ldr        ldr s0,[x23, #0x424]
+    023b4b74  fcmp       fcmp s0,#0.0
+    023b4b78  b.ne       b.ne 0x023b4c18
+    023b4b7c  movi       movi d0,#0x0

@@ -1,0 +1,70 @@
+=== candidate camera functions ===
+horizontalSensitivity    ref from 0358eac0 : NOT IN A FUNCTION (data)
+verticalSensitivity      ref from 0358e3c8 : NOT IN A FUNCTION (data)
+verticalSensitivity      ref from 0358ea90 : NOT IN A FUNCTION (data)
+
+LatStickScale            fn 0189ac44  size=0x2120 insns=2120  FP=0 (0.0%) mem=1011 calls=174
+    top: add:408, adrp:298, ldr:298, str:233, stp:178, mov:118, bl:116, sub:59, b:59, cmp:58
+
+LatStickScale            fn 00bdccec  size=0x588 insns=354  FP=0 (0.0%) mem=164 calls=31
+    top: add:87, stp:49, str:45, adrp:33, mov:33, ldr:33, cmp:16, bl:16, blr:15, b.eq:15
+
+LatStickScale            fn 01896610  size=0x1154 insns=1109  FP=0 (0.0%) mem=532 calls=90
+    top: add:212, adrp:157, ldr:157, str:120, stp:94, mov:62, bl:60, sub:31, b:31, cmp:30
+
+LatStickScale            fn 00dba2f0  size=0x798 insns=486  FP=0 (0.0%) mem=229 calls=40
+    top: add:93, adrp:71, ldr:59, str:52, stp:43, mov:28, bl:27, sub:14, b:14, cmp:14
+
+LatStickScale            fn 01897848  size=0x6B4 insns=429  FP=0 (0.0%) mem=157 calls=59
+    top: mov:89, add:61, stp:61, ldr:61, adrp:31, cmp:30, bl:30, blr:29, b.eq:28, ldp:3
+
+LatStickScale            fn 01898a10  size=0x680 insns=416  FP=0 (0.0%) mem=153 calls=57
+    top: mov:86, add:59, stp:59, ldr:59, adrp:31, cmp:29, bl:29, blr:28, b.eq:27, ldp:3
+
+LatStickScale            fn 0189ce48  size=0xCE8 insns=826  FP=0 (0.0%) mem=300 calls=115
+    top: mov:173, add:119, ldr:118, stp:117, adrp:61, cmp:58, bl:58, blr:57, b.eq:56, ldp:3
+
+LatStickScale            fn 0189f828  size=0x210 insns=132  FP=0 (0.0%) mem=50 calls=17
+    top: mov:26, stp:19, add:18, ldr:18, cmp:9, bl:9, adrp:9, blr:8, b.eq:7, ldp:3
+
+LatStickScale            fn 018a04b0  size=0x1DC insns=119  FP=0 (0.0%) mem=45 calls=15
+    top: mov:23, add:17, stp:17, ldr:16, cmp:8, bl:8, adrp:8, blr:7, b.eq:6, ldp:3
+
+LatStickScale            fn 018a2194  size=0x2FC insns=191  FP=0 (0.0%) mem=72 calls=25
+    top: mov:38, add:27, stp:27, ldr:27, adrp:14, cmp:13, bl:13, blr:12, b.eq:11, ldp:3
+
+LatStickScale            fn 018a2d4c  size=0x3B4 insns=237  FP=0 (0.0%) mem=89 calls=31
+    top: mov:47, add:35, ldr:34, stp:33, adrp:18, cmp:16, bl:16, blr:15, b.eq:14, ldp:3
+
+LatStickScale            fn 018a95b8  size=0x7C0 insns=496  FP=0 (0.0%) mem=180 calls=69
+    top: mov:104, stp:71, add:70, ldr:70, cmp:35, bl:35, adrp:35, blr:34, b.eq:33, ldp:3
+
+LatStickScale            fn 018aa9d0  size=0x6F4 insns=445  FP=0 (0.0%) mem=164 calls=61
+    top: mov:92, ldr:64, add:63, stp:63, adrp:33, cmp:31, bl:31, blr:30, b.eq:29, ldp:3
+
+LatStickScale            fn 018ad72c  size=0x8DC insns=567  FP=0 (0.0%) mem=205 calls=79
+    top: mov:119, add:81, stp:81, ldr:80, cmp:40, bl:40, adrp:40, blr:39, b.eq:38, ldp:3
+
+StickSensitivity         fn 01aca6c8  size=0x88 insns=34  FP=0 (0.0%) mem=12 calls=4
+    top: mov:7, add:4, stp:4, ldr:4, cmp:2, blr:2, bl:2, adrp:2, ldp:2, ret:1
+
+CameraRotateSpeed        fn 00c60170  size=0x7EC insns=507  FP=0 (0.0%) mem=145 calls=46
+    top: mov:119, add:83, bl:39, ldr:34, strb:29, movk:26, str:26, cmp:25, stur:15, adrp:13
+
+=== ranked by FP density (rotation candidates first) ===
+  FP=0    insns=2120   0189ac44
+  FP=0    insns=1109   01896610
+  FP=0    insns=826    0189ce48
+  FP=0    insns=567    018ad72c
+  FP=0    insns=507    00c60170
+  FP=0    insns=496    018a95b8
+  FP=0    insns=486    00dba2f0
+  FP=0    insns=445    018aa9d0
+  FP=0    insns=429    01897848
+  FP=0    insns=416    01898a10
+  FP=0    insns=354    00bdccec
+  FP=0    insns=237    018a2d4c
+  FP=0    insns=191    018a2194
+  FP=0    insns=132    0189f828
+  FP=0    insns=119    018a04b0
+  FP=0    insns=34     01aca6c8

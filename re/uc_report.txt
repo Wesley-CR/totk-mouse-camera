@@ -1,0 +1,38 @@
+=== UltraCam Ghidra report ===
+program: image.bin
+image base: 0x0
+
+
+################ string: 'Camera Controller Hook Fix 1.4.0+' ################
+literal occurrences: 1
+  literal at 0018e87f
+
+################ string: 'LayerCalc Hook 1.4.0+' ################
+literal occurrences: 1
+  literal at 0018e667
+
+################ string: 'Game Time Speed 1.4.0+' ################
+literal occurrences: 1
+  literal at 0018efff
+
+################ string: 'CameraSpeed' ################
+literal occurrences: 1
+  literal at 0018cde7
+
+################ string: 'Stick_Horizontal_Speed' ################
+literal occurrences: 1
+  literal at 00197887
+
+################ string: 'Stick_Vertical_Speed' ################
+literal occurrences: 1
+  literal at 0019786f
+
+################ string: 'sd:/UltraCam/TOTK/Config/' ################
+literal occurrences: 3
+  literal at 0018b86f
+  literal at 0018d1af
+  literal at 0019790f
+
+################ string: 'maxlastbreath.ini' ################
+literal occurrences: 1
+  literal at 0019792f

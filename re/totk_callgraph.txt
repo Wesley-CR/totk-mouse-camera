@@ -1,0 +1,60 @@
+=== TOTK 1.4.2 call-graph report (no decompiler) ===
+functions: 144216
+
+################ QueryPlayerCameraControllerInput  (0x2C4FCB1) ################
+  literal referenced 0 time(s)
+
+################ QueryControllerGetStick  (0x2CD3D85) ################
+  literal referenced 0 time(s)
+
+################ CameraRotateSpeed  (0x2C1328D) ################
+  literal referenced 1 time(s)
+    ref from 00c604d0   containing=00c60170
+
+################ StickSensitivity  (0x2CAE359) ################
+  literal referenced 1 time(s)
+    ref from 01aca730   containing=01aca6c8
+
+################ LatStickScale  (0x2C8D379) ################
+  literal referenced 14 time(s)
+    ref from 0189b19c   containing=0189ac44
+    ref from 00bdcde8   containing=00bdccec
+    ref from 01896804   containing=01896610
+    ref from 00dba488   containing=00dba2f0
+    ref from 01897954   containing=01897848
+    ref from 01898bc0   containing=01898a10
+    ref from 0189d148   containing=0189ce48
+    ref from 0189f934   containing=0189f828
+    ref from 018a0580   containing=018a04b0
+    ref from 018a2264   containing=018a2194
+    ref from 018a2e1c   containing=018a2d4c
+    ref from 018a9884   containing=018a95b8
+    ref from 018aab80   containing=018aa9d0
+    ref from 018ad9f8   containing=018ad72c
+
+################ LngStickScale  (0x2C6C32B) ################
+  literal referenced 14 time(s)
+    ref from 0189b1fc   containing=0189ac44
+    ref from 00bdce50   containing=00bdccec
+    ref from 01896864   containing=01896610
+    ref from 00dba4e8   containing=00dba2f0
+    ref from 01897988   containing=01897848
+    ref from 01898bfc   containing=01898a10
+    ref from 0189d184   containing=0189ce48
+    ref from 0189f968   containing=0189f828
+    ref from 018a05bc   containing=018a04b0
+    ref from 018a22a0   containing=018a2194
+    ref from 018a2e58   containing=018a2d4c
+    ref from 018a98b8   containing=018a95b8
+    ref from 018aabbc   containing=018aa9d0
+    ref from 018ada2c   containing=018ad72c
+
+################ horizontalSensitivity  (0x2C28186) ################
+  literal referenced 1 time(s)
+    ref from 0358eac0   containing=none
+
+################ verticalSensitivity  (0x2C30236) ################
+  literal referenced 2 time(s)
+    ref from 0358e3c8   containing=none
+    ref from 0358ea90   containing=none
+

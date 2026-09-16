@@ -1,0 +1,31 @@
+# Out of scope for this repo
+/eden/
+/roms/
+/updates/
+/totkextrackt/
+/.agent-work/
+/re/exlaunch/
+/re/eden_src/
+
+# Extracted game data, images, key material — never commit
+prod.keys
+*.bin
+*.keys
+/re/exefs*/
+/re/game/
+/re/upd*/
+/re/totk142*/
+/re/uc_*/
+/re/ghidra*/
+/re/base_*/
+/re/t142_*/
+/re/ultracam_subsdk3.bin
+*.log
+
+# Regenerable build outputs
+/build-nativeMouse/build/
+/build-nativeMouse/deploy/
+*.elf
+*.nso
+*.npdm
+__pycache__/
