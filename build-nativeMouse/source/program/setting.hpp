@@ -2,7 +2,7 @@
 
 #include "common.hpp"
 
-#define EXL_MODULE_NAME "ri0"
+#define EXL_MODULE_NAME "ri1"
 
 #define EXL_DEBUG
 #define EXL_USE_FAKEHEAP

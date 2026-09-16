@@ -25,6 +25,8 @@ prod.keys
 # Regenerable build outputs
 /build-nativeMouse/build/
 /build-nativeMouse/deploy/
+/re/*.exe
+/re/*.obj
 *.elf
 *.nso
 *.npdm
