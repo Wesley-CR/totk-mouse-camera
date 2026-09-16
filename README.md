@@ -58,7 +58,9 @@ docs/
   INSTALL.md       Eden install + UltraCam compatibility
 mod/
   config/          NativeMouse.ini (shipped defaults)
-tools/             helper scripts used during reverse engineering
+  source/          mod sources + superseded experiment variants (main_nm*.cpp, main_ri*.cpp)
+build-nativeMouse/ devkitA64 build wrapper that produces the `subsdk1` NSO
+re/                reverse-engineering workspace: scripts, dumps, Eden sparse checkout (gitignored)
 ```
 
 ---
@@ -66,7 +68,7 @@ tools/             helper scripts used during reverse engineering
 ## Quick start (do not run yet — see STATUS)
 
 1. Extract TOTK 1.4.2's `main` and confirm the build ID is `5CB42B1CF25469FB`
-   (`tools/` has the scripts; `docs/research.md` §1 documents the exact commands).
+   (`re/` has the scripts; `docs/research.md` §1 documents the exact commands).
 2. Configure Eden:
    * `Controls.mouse_enabled = true` (required — this is the mouse source)
    * `Controls.mouse_panning = false` (mutually exclusive with the above)
@@ -93,5 +95,5 @@ The mod is designed to sit alongside UltraCam:
 
 Reverse-engineering notes were produced against the user's own installed game and mod files.
 Eden and UltraCam sources were read for interoperability only; no third-party code is
-redistributed here. `tools/eden_src/` is a read-only sparse checkout of Eden used to confirm
+redistributed here. `re/eden_src/` is a read-only sparse checkout of Eden used to confirm
 input behaviour and is not part of the mod.

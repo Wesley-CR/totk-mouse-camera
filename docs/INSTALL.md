@@ -24,7 +24,7 @@ Eden looks for these exefs members in a fixed order and loads every one it finds
 rtld, main, subsdk0, subsdk1, subsdk2, subsdk3, subsdk4, ... subsdk9, sdk
 ```
 
-(`src/core/loader/deconstructed_rom_directory.cpp`).
+(`src/core/loader/deconstructed_rom_directory.cpp`; sparse Eden checkout at `re/eden_src/`).
 
 UltraCam ships `!!!!TOTK Optimizer/exefs/subsdk3`. This mod therefore uses **`subsdk1`**,
 which is free. Mod folders are applied in ascending name order and **the first match per
