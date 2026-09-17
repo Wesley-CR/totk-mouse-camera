@@ -59,6 +59,7 @@ docs/
 mod/
   config/          NativeMouse.ini (shipped defaults)
   source/          mod sources + superseded experiment variants (main_nm*.cpp, main_ri*.cpp)
+keybinds/          Eden input profiles (G502 mouse, keyboard + mouse)
 build-nativeMouse/ devkitA64 build wrapper that produces the `subsdk1` NSO
 re/                reverse-engineering workspace: scripts, dumps, Eden sparse checkout (gitignored)
 ```

@@ -9,8 +9,8 @@
 | **Python 3** | exlaunch's build scripts (npdm generation) | any 3.4+ |
 | **GNU make** | build driver | comes with devkitPro's msys2 |
 
-Eden's own `nstool.exe` (repo root) is only needed if you want to re-extract the game; it is
-not part of the mod build.
+`nstool` (a local copy lives at `re/nstool.exe`, not committed) is only needed if you want to
+re-extract the game; it is not part of the mod build.
 
 ## Installing devkitPro (Windows)
 

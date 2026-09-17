@@ -21,6 +21,7 @@ prod.keys
 /re/base_*/
 /re/t142_*/
 /re/ultracam_subsdk3.bin
+/re/ultracammodfiles/
 *.log
 
 # Regenerable build outputs
