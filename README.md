@@ -94,7 +94,12 @@ The mod is designed to sit alongside UltraCam:
 
 ## License / provenance
 
+The mod is licensed under the **GNU General Public License v2.0** (see [`LICENSE`](LICENSE)).
+`build-nativeMouse/` is the vendored [exlaunch](https://github.com/shadowninja108/exlaunch)
+framework (GPLv2), with oss-rtld components under ISC terms
+(`build-nativeMouse/source/rtld/LICENSE.txt`).
+
 Reverse-engineering notes were produced against the user's own installed game and mod files.
-Eden and UltraCam sources were read for interoperability only; no third-party code is
-redistributed here. `re/eden_src/` is a read-only sparse checkout of Eden used to confirm
-input behaviour and is not part of the mod.
+Eden and UltraCam sources were read for interoperability only; game dumps, keys and UltraCam
+binaries are not committed to this repository. `re/eden_src/` is a read-only sparse checkout
+of Eden used to confirm input behaviour and is not part of the mod.
