@@ -18,8 +18,9 @@ param(
 
 $ErrorActionPreference = 'Continue'
 
-$eden     = "%USERPROFILE%\Downloads\Eden-Windows-defddec47f-amd64-msvc-standard\eden.exe"
-$rom      = "<repo-root>\roms\[ROMsNS] The Legend of Zelda Tears of the Kingdom [0100F2C0115B6000][v0][US].xci"
+$eden     = "$env:USERPROFILE\Downloads\Eden-Windows-defddec47f-amd64-msvc-standard\eden.exe"
+$repo     = Split-Path -Parent $PSScriptRoot
+$rom      = Join-Path $repo "roms\[ROMsNS] The Legend of Zelda Tears of the Kingdom [0100F2C0115B6000][v0][US].xci"
 $edenLog  = "$env:APPDATA\eden\log\eden_log.txt"
 
 if (-not (Test-Path $eden)) { Write-Host "eden.exe not found: $eden"; exit 1 }
